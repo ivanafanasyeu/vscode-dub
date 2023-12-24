@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import '../';
+import '$lib/index';
 
 test('index page has expected h1', async ({ page }) => {
 	await page.goto('/');
